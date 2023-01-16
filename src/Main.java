@@ -18,7 +18,7 @@ public class Main {
 
     public static boolean isConstantName(String name){
         String firstChar = String.valueOf(name.charAt(0));
-        if (!containsOnlyChars(firstChar,"QWERTZUIOPASDFGHJKLÄÖYXCVBNMÜ")) {
+        if (!containsOnlyChars(firstChar,"QWERTZUIOPASDFGHJKLYXCVBNMÜ")) {
             return false;
         }
         if(!containsOnlyChars(name,"ABCDEFGHIJKLMNOPQRSTUVWXYZÜÄÖ_1234567890")){
