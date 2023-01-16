@@ -21,7 +21,7 @@ public class Main {
         if (!containsOnlyChars(firstChar,"QWERTZUIOPASDFGHJKLYXCVBNMÜ")) {
             return false;
         }
-        if(!containsOnlyChars(name,"ABCDEFGHIJKLMNOPQRSTUVWXYZÜÄÖ_1234567890")){
+        if(!containsOnlyChars(name,"ABCDEFGHIJKLMNOPQRSTUVWXYZ_1234567890")){
             return false;
         }
         return true;
