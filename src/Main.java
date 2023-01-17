@@ -3,6 +3,7 @@ public class Main {
         System.out.println(isConstantName("WER_IST_DAS?"));
         System.out.println(isMethodName("ichBinJohn"));
         System.out.println(countOccurence("abababa", "abab"));
+        printHexAsciiTab();
     }
 
     public static boolean containsOnlyChars(String s, String chars) {
@@ -62,7 +63,21 @@ public class Main {
     }
 
     public static void printHexAsciiTab() {
-
+        int col = 16;
+        int row=7;
+        System.out.print("   ");
+        for (int i = 0; i < col; i++) {
+            System.out.printf("?%X  ",i);
+        }
+        char ascii = (char)(32);
+        for (int i = 1; i < row; i++) {
+            System.out.println();
+            System.out.printf("?%X", i);
+            for (int j = 0; j < col; j++) {
+                System.out.printf("%3c ",ascii);
+                ascii+=1;
+            }
+        }
     }
 
 
