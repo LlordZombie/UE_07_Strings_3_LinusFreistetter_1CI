@@ -8,6 +8,7 @@ public class Main {
         System.out.println();
         System.out.println();
         System.out.println(hexCrossSum("Affe"));
+        System.out.println(rot13("Hallo Welt!"));
     }
 
     public static boolean containsOnlyChars(String s, String chars) {
@@ -96,10 +97,27 @@ public class Main {
             } else {
                 return -1;
             }
-            sum+=digit;
+            sum += digit;
         }
         return sum;
     }
 
+    public static String rot13(String s) {
+        String rString = "";
+        char ch = 'L';
+        for (int i = 0; i < s.length(); i++) {
+            ch = s.charAt(i);
+            if ((ch >= 'a' && ch <= 'm') || (ch >= 'A' && ch <= 'M')) {
+                ch += 13;
+                rString += ch;
+            } else if ((ch >= 'n' && ch <= 'z') || (ch >= 'N' && ch <= 'Z')) {
+                ch-=13;
+                rString+=ch;
+            }else{
+                rString+=ch;
+            }
+        }
+        return rString;
+    }
 
 }

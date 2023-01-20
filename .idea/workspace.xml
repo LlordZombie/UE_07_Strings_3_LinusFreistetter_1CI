@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fb85a62-671e-4c8a-b0e1-bae58149600e" name="Changes" comment="stole asciitab">
+    <list default="true" id="7fb85a62-671e-4c8a-b0e1-bae58149600e" name="Changes" comment="hexcrosssum fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -20,6 +20,18 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4bb8fc7c-b00b-4b81-b76d-ddd12dffb982" />
+        <option name="url" value="https://github.com/LlordZombie/UE_07_Strings_3_LinusFreistetter_1CI.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,7 +65,7 @@
       <updated>1673853555594</updated>
       <workItem from="1673853556800" duration="4879000" />
       <workItem from="1673955663443" duration="2318000" />
-      <workItem from="1674208719404" duration="672000" />
+      <workItem from="1674208719404" duration="2153000" />
     </task>
     <task id="LOCAL-00001" summary="commit numero uno">
       <created>1673854819094</created>
@@ -97,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673957898902</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hexcrosssum fertig">
+      <created>1674209593249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674209593249</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +137,7 @@
     <MESSAGE value="commit numero uno" />
     <MESSAGE value="commit numero 2" />
     <MESSAGE value="stole asciitab" />
-    <option name="LAST_COMMIT_MESSAGE" value="stole asciitab" />
+    <MESSAGE value="hexcrosssum fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="hexcrosssum fertig" />
   </component>
 </project>
