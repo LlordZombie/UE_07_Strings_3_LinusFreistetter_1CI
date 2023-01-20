@@ -1,9 +1,13 @@
 public class Main {
+
     public static void main(String[] args) {
         System.out.println(isConstantName("WER_IST_DAS?"));
         System.out.println(isMethodName("ichBinJohn"));
         System.out.println(countOccurence("abababa", "abab"));
         printHexAsciiTab();
+        System.out.println();
+        System.out.println();
+        System.out.println(hexCrossSum("Affe"));
     }
 
     public static boolean containsOnlyChars(String s, String chars) {
@@ -64,20 +68,37 @@ public class Main {
 
     public static void printHexAsciiTab() {
         int col = 16;
-        int row=7;
+        int row = 7;
         System.out.print("   ");
         for (int i = 0; i < col; i++) {
-            System.out.printf("?%X  ",i);
+            System.out.printf("?%X  ", i);
         }
-        char ascii = (char)(32);
+        char ascii = (char) (32);
         for (int i = 1; i < row; i++) {
             System.out.println();
             System.out.printf("?%X", i);
             for (int j = 0; j < col; j++) {
-                System.out.printf("%3c ",ascii);
-                ascii+=1;
+                System.out.printf("%3c ", ascii);
+                ascii += 1;
             }
         }
+    }
+
+    public static int hexCrossSum(String n) {
+        int sum = 0;
+        int digit = 0;
+        for (int i = 0; i < n.length(); i++) {
+            char ch = Character.toLowerCase(n.charAt(i));
+            if (ch >= '0' && ch <= '9') {
+                digit = ch - '0';
+            } else if (ch >= 'a' && ch <= 'f') {
+                digit = ch - 'a' + 10;
+            } else {
+                return -1;
+            }
+            sum+=digit;
+        }
+        return sum;
     }
 
 
